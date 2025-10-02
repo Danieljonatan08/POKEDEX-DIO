@@ -1,0 +1,29 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5f7fb;
+}
+
+.content {
+  padding: 1rem;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+}
+
+@media screen and (min-width: 992px) {
+  .content {
+    max-width: 992px;
+    margin: 0 auto;
+    max-height: auto;
+  }
+}
+
+/* 
+
+https://pokeapi.co/api/v2/pokemon/
+
+*/
