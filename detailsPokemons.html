@@ -32,14 +32,14 @@
         <div class="detailsPokemon">
           <nav>
             <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Base Stats</a></li>
-              <li><a href="#">Evolution</a></li>
-              <li><a href="#">Moves</a></li>
+              <li><a href="#" data-tab="about" class="active">About </a></li>
+              <li><a href="#" data-tab="baseStats">Base Stats</a></li>
+              <li><a href="#" data-tab="evolution">Evolution</a></li>
+              <li><a href="#" data-tab="moves">Moves</a></li>
             </ul>
           </nav>
           <div class="contentDetails">
-            <div class="about">
+            <div class="about tab-content active">
               <ul class="info">
                 <li>
                   <span class="title">Species</span>
@@ -67,9 +67,70 @@
                 </ul>
               </div>
             </div>
+
+            <div class="baseStats tab-content">
+              <ul class="stats">
+                <li>
+                  <span class="title">HP</span>
+                  <span class="number">45</span>
+                  <div class="bar">
+                    <div class="progress" style="width: 45%"></div>
+                  </div>
+                </li>
+                <li>
+                  <span class="title">Attack</span>
+                  <span class="number">49</span>
+                  <div class="bar">
+                    <div class="progress" style="width: 49%"></div>
+                  </div>
+                </li>
+                <li>
+                  <span class="title">Defense</span>
+                  <span class="number">49</span>
+                  <div class="bar">
+                    <div class="progress" style="width: 49%"></div>
+                  </div>
+                </li>
+                <li>
+                  <span class="title">Sp. Atk</span>
+                  <span class="number">65</span>
+                  <div class="bar">
+                    <div class="progress" style="width: 65%"></div>
+                  </div>
+                </li>
+                <li>
+                  <span class="title">Sp. Def</span>
+                  <span class="number">65</span>
+                  <div class="bar">
+                    <div class="progress" style="width: 65%"></div>
+                  </div>
+                </li>
+                <li>
+                  <span class="title">Speed</span>
+                  <span class="number">45</span>
+                  <div class="bar">
+                    <div class="progress" style="width: 45%"></div>
+                  </div>
+                </li>
+                <li>
+                  <span class="title total">Total</span><span class="number"
+                    >318</span
+                  >
+                </li>
+                <div class="typeDefenses">
+                  <h2> Type defenses</h2>
+                <p></p>
+                </div>
+                
+              </ul>
+
+            </div>
+            <div class="evolution tab-content"></div>
+            <div class="moves tab-content"></div>
           </div>
         </div>
       </div>
     </section>
+    <script src="./src/scripts/detailsPokemon.js"></script>
   </body>
 </html>
