@@ -1,0 +1,143 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #d1caca;
+  height: 100vh;
+}
+
+.moreAboutPokemon {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerInfoPokemon {
+  max-width: 400px;
+  background-color: #49d0b0;
+  margin: 5rem;
+  border-radius: 2rem;
+}
+.containerPokemon {
+  padding: 4rem;
+  height: 350px;
+}
+.pokemon{
+  color: #fff;
+  list-style: none;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column; 
+}
+.pokemon .name {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: left;
+  
+}
+.pokemon .number {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: right;
+}
+
+
+
+.detailsPokemon {
+  background-color: #f2f2f2;
+  border-radius: 2rem;
+  padding: 3rem;
+  height: 450px;
+}
+.detailsPokemon nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+  list-style: none;
+  
+}
+.detailsPokemon nav ul a{
+  text-transform: capitalize;
+  font-weight: 700;
+  color: #9b9494;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.detail ol {
+  flex-direction: row;
+  gap: 1rem;
+  list-style: none;
+  display: flex;
+  align-items: space-around;
+  margin: .65rem;
+  
+}
+.detail li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #82e1d1;
+  padding: 0.25rem .65rem;
+  color: #fff;
+  border-radius: 1rem;
+}
+
+.info {
+  list-style: none;
+  margin-top: 1rem;
+} 
+.info li {
+  display: grid;
+  grid-template-columns: 100px 1fr ; /* Ajuste os tamanhos conforme necessário */
+  align-items: center;
+  margin-top: 1rem;
+
+}
+.info li .title {
+  font-weight: 700;
+}                                           
+.title {
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #9b9494;
+  cursor: pointer;
+  text-decoration: none;
+}
+.breeding {
+  margin-top: 2rem;
+}
+
+.breeding ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.breeding li {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr; 
+  align-items: center;
+  
+}
+
+.breeding li span {
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.breeding .title {
+  font-weight: 700;
+}
